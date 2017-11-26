@@ -1,0 +1,432 @@
+html, body, header, main {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    
+    background-color: rgba(50, 50, 50, 1);
+    background-image: url(Images/StockSnap_24HK7DMZD2-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+#header-content {
+    margin: 0 auto;
+    width: 75%;
+    height: 80%;
+
+}
+
+#header-top {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+}
+
+#logo {
+    float: left;
+    color: #ea1e63;
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+#social-media {
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+}
+
+#phone {
+    color: white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 3px;
+    
+    float: right;
+    height: 100%;
+    line-height: 100px;
+
+}
+
+#main-heading {
+    margin-top: 100px;
+    left: 0;
+    width: 49%;
+    position: absolute;
+    height: calc(100% - 150px);
+    
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 100px;
+    
+    display: inline-flex;
+    align-items: center;
+    /*justify-content: center;*/
+}
+
+img[alt="phone"] {
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+
+#right-heading {
+    margin-top: 100px;
+    position: absolute;
+    right: 0;
+    width: 51%;
+    height: calc(100% - 150px);
+    display: inline-flex;
+    align-items: center;
+}
+
+h5 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 5px;
+    
+}
+
+h6 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 80px;  
+}
+
+h2 {
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80px;
+}
+
+button {
+    padding: 20px 50px;
+    
+    background-color: #ea1e63;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    
+    border-radius: 40px;
+    cursor: pointer;
+    
+
+}
+
+#mid-line {
+    padding: 40px 60px;
+    border-left: 2px solid white;
+
+}
+
+#right-heading-content {
+    width: 100%;
+}
+
+
+#button {
+    position: absolute;
+    bottom: -120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+#media-list {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+.item {
+    margin: 0 8px;
+    display: inline-block;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    cursor: pointer;
+    
+    border-radius: 50%;
+    
+    overflow: hidden;
+    
+}
+
+.item img:hover {
+    filter: none;
+    background-color: white;
+    width: 45px;
+    height: 45px;
+}
+
+
+.item img {
+    width: 32px;
+    height: 32px;
+    
+    filter: grayscale(100%) opacity(70%);
+    
+    transition: all 0.2s linear;
+}
+.page {
+    width: 100%;
+    height: calc(100% - 100px);
+    
+    padding-top: 100px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 5px gray;
+    position: absolute;
+    z-index: 1;
+}
+
+.menu-right {
+    display: flex;
+    position: absolute;
+    right: 0;
+    align-items: center;
+    height: 80px;
+}
+
+a {
+    color: gray;
+}
+
+.menu-right a {
+    margin-right: 20px;
+    float: left;
+    padding: 0 25px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 80px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.bottom-border-red {
+    border-bottom: 10px solid #ea1e63;
+}
+.bottom-border-yellow {
+    border-bottom: 10px solid #ffe083;
+}
+.bottom-border-purple {
+    border-bottom: 10px solid #ba69c8;
+}
+.bottom-border-orange {
+    border-bottom: 10px solid #ffccbb;
+}
+.bottom-border-brown {
+    border-bottom: 10px solid #8c6e63;
+}
+
+.logo {
+    float: left;
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    height: 100%;
+}
+
+.red {
+    color: #ea1e63;
+}
+
+.bgred {
+    background: linear-gradient(90deg, #ea1e63, #ea1e63 30%, white 30%);
+}
+
+.yellow {
+    color: #ffe083;
+}
+
+.bgyellow {
+    background-color: #ffe083;
+}
+
+.purple {
+    color: #ba69c8;
+}
+
+.bgpurple {
+    background-color: #ba69c8;
+}
+
+.orange {
+    color: #ffccbb;
+}
+
+.bgorange {
+    background-color: #ffccbb;
+}
+
+.brown {
+    color: #8c6e63;
+}
+
+.bgbrown {
+    background-color: #8c6e63;
+}
+
+.phone-rec {
+    background-image: url(Images/Icons/phone.png);
+    
+    
+    width: 32px;
+    height: 32px;
+}
+
+
+
+#side-text {
+    color: white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 5px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+#cfy {
+    margin-left: 10px;
+    height: 90%;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.w-75 {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.content {
+    width: 75%;
+    height: 70%;
+    
+
+}
+
+#red-line {
+    width: 20%;
+    background-color: #ea1e63;
+    height: 7px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#cfy-text {
+    position: absolute;
+    padding-top: 20px;
+    right: 0;
+    width: 35%;
+    height: calc(100% - 20px);
+    
+
+}
+
+#see-all {
+    margin-top: 40px;
+    text-align: center;
+    color: black;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#see-all:hover {
+    text-decoration: underline;
+}
+
+#product-desc {
+    color: gray;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#prev-price {
+    margin-top: 30px;
+    color: gray;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#disc-price {
+    color: #ea1e63;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+#atc-button {
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.flexbox {
+    display: flex;
+
+}

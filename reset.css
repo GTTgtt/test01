@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Barlow+Semi+Condensed:400,700|Pacifico');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    
+    position: relative;
+    
+    outline: none;
+    text-decoration: none;
+}
